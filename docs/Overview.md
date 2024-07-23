@@ -9,5 +9,14 @@ Begin by importing the ANIN-drought-indices into Jupyter Notebook using the `Git
       
     ![alt text](assets/JN_CloneRepo.PNG)
 
-A folder containing the ANIN-drought-indices will be created. Open it and double click `setup_and_test.ipynb`. It will open in a new tab and require you to 'Restart the kernal and run all cells`.
+A folder containing the ANIN-drought-indices will be created. 
+
+### Setup and Testing
+
+Open it and double click `setup_and_test.ipynb`. It will open in a new tab and require you to 'Restart the kernal and run all cells`.
 Jupyter Notebook will install all the requirements to run the code followed by a sample test query, which requests a Sentinel-2 image over The Innovation Hub in Pretoria, South Africa.
+
+!!! tip ""
+      
+    ![alt text](assets/JN_TestResults.PNG)
+

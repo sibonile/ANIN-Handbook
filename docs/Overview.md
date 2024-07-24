@@ -13,7 +13,7 @@ A folder containing the ANIN-drought-indices will be created.
 
 ### Setup and Testing
 
-Open it and double click `setup_and_test.ipynb`. It will open in a new tab and require you to 'Restart the kernal and run all cells`.
+Open the respository and double click `setup_and_test.ipynb`. It will open in a new tab and require you to 'Restart the kernal and run all cells` (under `Run` in the menu).
 Jupyter Notebook will install all the requirements to run the code followed by a sample test query, which requests a Sentinel-2 image over The Innovation Hub in Pretoria, South Africa.
 
 !!! tip ""

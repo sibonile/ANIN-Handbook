@@ -1,5 +1,6 @@
 site_name: ANIN Handbook
 theme:
+  logo: assets/ANIN_logo.png
   name: material
   features:
     - navigation.tabs.sticky 

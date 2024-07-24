@@ -49,3 +49,15 @@ datacube = datacube / 2500
 
 datacube.download("out-Pretoria.tiff")
 ```
+
+### Run Standardized Precipitation Index (SPI)
+In the SPI folder, you will find `SPI_openeo.ipynb`. Double click on it to open it in a new tab. This index will return results for the whole country, however you have the option to adjust the temporal extent by adjusting the highlighed line of code:
+
+```py hl_lines="2"
+dc = SPI_dc
+dc = dc.filter_temporal(["2022-01-01", "2022-06-01"])
+# out_format = "NetCDF"
+out_format = "GTiff"
+dc = dc.save_result(format=out_format)
+output_path = custom_execute_batch(dc, job_options=heavy_job_options, out_format=out_format)
+```

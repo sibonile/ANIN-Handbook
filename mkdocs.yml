@@ -4,6 +4,7 @@ theme:
   name: material
   features:
     - navigation.tabs.sticky 
+    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.path
@@ -34,6 +35,11 @@ nav:
     - Getting Started:
       - Installation: 'Installation.md'
       - Quick Overview: 'Overview.md'
+- Theoretical Basis: 
+    - Introduction: 'theoretical_basis.md'
+    - Drought Indices: 'drought_indices.md'
+- API Reference: api_reference.md
+
 # - Tutorials:
 #   - For Users:
 #     - Getting Started:

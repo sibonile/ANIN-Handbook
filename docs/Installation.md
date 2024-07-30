@@ -1,44 +1,66 @@
 # Installation
 
 ## Requirements
-A recent version of Python and the Python package manager, pip, needs to be installed on your system
+To run the Drought Indices tools, a recent version of Python needs to be installed on your system. First visit [Python.org](https://www.python.org/) to confirm the latest version number. 
 
-You can check if you already have them installed by running the following command
-```bash
+You can check the version of Python you have installed by running the following command in Command Prompt
+```
 python --version
 ```
-```bash
-pip --version
-```
-To run the ANIN drought indicies code, you will also require a Jupyter Notebook account. If you already have the latest version of Python and pip installed, and you have a Jupyter Notebook account, you can skip to Accessing the source code
+
 ## Installing Python
 Install Python by downloading an installer appropriate to your system from [python.org](https://www.python.org/)  and running it.
 
-!!! Note
+!!! Note ""
 
-    Be sure to check the box to have Python  added to your PATH.
+    Be sure to check the box to have Python added to your PATH.
 
     ![alt text](assets/win-py-install.png)
 
+## Clone the ANIN drought indices repository
+Open a Command Prompt or a terminal and change the directory to the folder where you will be working from. For this example, we are working from the drive labelled `*K*` in folder located at this directory address `K:\DroughtIndicies`. 
 
-## Installing pip
-If you have the latest version of Python installed on your system, then pip will likely be installed by default. Should you require to upgrade pip to the latest version, you can use the following code in command prompt:
-```bash
-pip install --upgrade pip
+The following prompt will change the directory
 ```
-If you need to install pip for the first time, download [get-pip.py](https://bootstrap.pypa.io/get-pip.py.). Open a terminal/commnad prompt, `cd` to the folder containing the `get-pip.py` file and run:
-``` bash
-py get-pip.py
+k:
 ```
-## Set up Jupyter Lab account
-The ANIN drought indicies code can be run easily from Jupiter Notebooks. To setup an account do the following:
-1. Go to the [openEO Platform](https://openeo.cloud/), and scroll down to `CLIENTS`
-2. Click on `OPEN JUPYTERLAB`, which will take you to the egi landing page. You can easily create an accout using Linkedin or any of the other options provided.
-3. Once logged in, start `openEO Platform Lab`.
+```
+cd k:\DroughtIndicies
+```
 
-## Accessing the source code
-Source code for the drought indices used in the ANIN project can be installed directly from the project repository:
-
-```bash
-pip install git+https://github.com/PEOPLE-ER/Spectral-Recovery.git#egg=spectral_recovery
+Now that you are in your working folder, you can clone the ANIN drought indices repository using the following prompt:
 ```
+git clone https://github.com/VitoTAP/ANIN-drought-indices
+```
+All the files that are in the ANIN Drought Indices repository will be cloned to your local machine in your specified working folder. You can easily verify that in Windows Explorer. 
+
+!!! Note ""
+    ![alt text](assets/Online2Local.PNG)
+
+In Command Prompt, change the directory again to point to the newly created `ANIN-drought-indices` folder on your PC using the following prompt:
+``` 
+cd \ANIN-drought-indices
+```
+## Create a Virtual Environment with Python
+To avoid any system conflicts when running the tools, we will create a virtual environment where Python and PIP will run from by running the following prompts:
+
+``` 
+python -m venv venv
+```
+!!! Tip
+    If you get an error when creating the virtual environment, adjust the prompt to point to the location of the latest version of the python you installed. It should look like this:
+    ```
+    path/to/where/python/is/installed/python.exe -m venv venv
+    ```
+Once the virtual environment is created, we can activate it.
+``` 
+venv\Scripts\activate.bat
+```
+## Install pip and other requirements
+We can now install pip and the other requirement to run the ANIN drought indices tools.
+
+```
+python -m pip install -r requirements.txt
+```
+Now that all the installations are complete, we can start running the different drought indices tools.
+

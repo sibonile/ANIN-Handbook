@@ -61,3 +61,5 @@ out_format = "GTiff"
 dc = dc.save_result(format=out_format)
 output_path = custom_execute_batch(dc, job_options=heavy_job_options, out_format=out_format)
 ```
+### Run Soil Moisture Anomaly
+Open the SMA folder, you will find `SMA_openeo.ipynb`. Double click to open the file in a new tab. 

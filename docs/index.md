@@ -19,7 +19,7 @@ Welcome to the handbook for the ANIN South Africa Drought Monitoring Project. Th
 The tools presented in this handbook where created as a result of a collaborative effort by the members of a consortium who's members include:
 <div class="grid cards" markdown>
 - ![alt text](<assets/GMV Logo_v2.png>)
-- ![alt text](assets/VitoLogo_v2.png)
+- ![alt text](assets/Vito_RemoteSensing_cmyk_Blue.png)
 - ![alt text](assets/AgroAppsLogo_v2.png)
 - ![alt text](assets/HatfieldLogo_v2.png)
 </div>

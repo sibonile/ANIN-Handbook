@@ -46,7 +46,7 @@ nav:
       - Running the Drought Indices Tools: 'drought_indices.md'
       - Working in Jupyter Notebooks: 'JupyterNB.md'
 - Theoretical Basis: 'theoretical_basis.md'
-- API Reference: api_reference.md
+- Python codes: python_codes.md
 
 # - Tutorials:
 #   - For Users:

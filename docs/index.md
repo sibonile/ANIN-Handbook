@@ -16,14 +16,20 @@ Welcome to the handbook for the ANIN South Africa Drought Monitoring Project. Th
 **Promote Collaboration:** Facilitate partnerships between African institutions, international organizations, and the scientific community to advance drought resilience efforts.
 
 ## Acknowledgements
-The tools presented in this handbook where created as a result of a collaborative effort by the members of a consortium who's members include:
+The tools presented in this handbook were created as a result of a collaborative effort by the members of a consortium whose members include:
+
 <div class="grid cards" markdown>
 - ![alt text](<assets/GMV Logo_v2.png>)
+- ![alt text](assets/HatfieldLogo_v2.png)
 - ![alt text](assets/Vito_RemoteSensing_cmyk_Blue.png)
 - ![alt text](assets/AgroAppsLogo_v2.png)
-- ![alt text](assets/HatfieldLogo_v2.png)
 </div>
 
+## Funding and Sponsorship
+The European Space Agency (ESA) created the EO Africa initiative (African Framework for Research, Innovation, Communities and Applications) to build an African-European R&D partnership to facilitate the sustainable adoption of Earth Observation and related space technology in Africa. This project is one of the four EO AFRICA' National Incubators' projects that investigate how sustainable agriculture and/or drought monitoring at a national scale can be achieved in the African continent by co-developing innovative EO-based solutions with African experts. 
+![alt text](assets/Primary_Logos.JPG)
 
-For more information on the ANIN South Africa Drought Monitoring Project visit [https://eoafrica.drought-za.org/](https://eoafrica.drought-za.org/).
+
+For more information on the ANIN South Africa Drought Monitoring Project, visit [https://eoafrica.drought-za.org/](https://eoafrica.drought-za.org/).
+
 

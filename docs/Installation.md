@@ -17,10 +17,18 @@ Install Python by downloading an installer appropriate to your system from [pyth
 
     ![alt text](assets/win-py-install.png)
 
-## Clone the ANIN drought indices repository
-Open a Command Prompt or a terminal and change the directory to the folder where you will be working. For this example, we are working from the drive labelled `*K*` in the folder located at this directory address `K:\DroughtIndicies`. 
+## Installing Git on Windows
+1. Navigate to the latest [Git for Windows installer ](https://gitforwindows.org/)and download the latest version.
+2. Follow the instructions as provided in the Git Setup wizard screen until the installation is complete. When prompted, select use standard Git Windows Command Prompt.
+3. Verify that Git was properly installed by running the following in `cmd`.
+   
+```
+ git version
+``` 
 
-The following prompt will change the directory.
+## Clone the ANIN drought indices repository
+Open a Command Prompt or a terminal and change the directory to the folder where you will be working. As an example, if you are working from a drive labelled `*K*` in the folder located at this directory address `K:\DroughtIndicies`, the following prompt will change the directory.
+
 ```
 k:
 ```

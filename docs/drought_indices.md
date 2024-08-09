@@ -5,11 +5,12 @@ The table below shows the drought indices and their corresponding Python prompt.
 
 | Index         | Python Code                                     | Requirements    | 
 | :------------ | :---------------------------------------------- | :---------------|
-| SMA           | `python -m SMA.SMA_openeo`                     | None            |
+| SMA           | `python -m SMA.SMA_openeo`                      | None            |
 | SPI           | `python -m SPI.SPI_openeo`                      | None            |
 | SPEI          | `python -m SPEI.SPEI_openeo`                    | None            |
 | FAPAR Anomaly | `python -m FAPAR_Anomaly.FAPAR_Anomaly_openeo`  | None            |
-| VCI           | `python -m CDI.CDI_openeo`                      | Temporal extent |
+| VCI           | `python -m VCI.VCI_openeo`                      | None            |
+| CDI           | `python -m CDI.CDI_openeo`                      | Temporal extent |
 
 ## Example 1: Standardised Precipitation Index (SPI)
 The SPI tool provides monthly time-series information based on precipitation data. It is computed at a national scale at a resolution of 1° x 1° and requires no temporal extent as an input. To run SPI, input the Python code below into the command prompt.

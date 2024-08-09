@@ -27,13 +27,13 @@ Install Python by downloading an installer appropriate to your system from [pyth
 ``` 
 
 ## Clone the ANIN drought indices repository
-Open a Command Prompt or a terminal and change the directory to the folder where you will be working. As an example, if you are working from a drive labelled `*K*` in the folder located at this directory address `K:\DroughtIndicies`, the following prompt will change the directory.
+Open a Command Prompt or a terminal and change the directory to the folder where you will be working. As an example, if you are working from a drive labelled `*K*` in the folder located at this directory address `K:\DroughtIndices`, the following prompt will change the directory.
 
 ```
 k:
 ```
 ```
-cd k:\DroughtIndicies
+cd k:\DroughtIndices
 ```
 
 Now that you are in your working folder, you can clone the ANIN drought indices repository using the following prompt:

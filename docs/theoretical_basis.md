@@ -24,5 +24,16 @@ SPEI extends the capabilities of SPI by incorporating both precipitation and pot
 ![alt text](assets/SPEI_Table.PNG)
 
 ## Vegetation Condition Index (VCI)
+VCI is used to asses vegetation health by comparing current vegetation conditions to historical trends. It is particularly useful in monitoring drought conditions and their impact on vegetation. The VCI is calculated using the Normalized Difference Vegetation Index (NDVI), which normalises current NDVI values against historical minimum and maximum NDVI values for the same period, effectively separating weather-related impacts from ecological factors.
 
+![alt text](assets/VCI_Table.PNG)
 
+## Soil Moisture Anomaly (SMA)
+SMA is used to assess deviations in soil moisture levels from the long-term average. It helps in understanding the extent of dryness or wetness in the soil, which is crucial for drought monitoring, agricultural planning, and water resource management. SMA is calculated by comparing current soil moisture levels to historical averages. Positive anomalies indicate wetter-than-average conditions, while negative anomalies signify drier-than-average conditions.
+
+![alt text](assets/SMA_Table.PNG)
+
+## Combined Drought Indicator (CDI)
+CDI is a comprehensive tool used to detect and monitor agricultural drought. It integrates multiple drought indicators to provide a detailed assessment of drought conditions, namely SPI, SMA and FAPAR Anomaly.
+
+![alt text](assets/CDI_Table.PNG)

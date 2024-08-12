@@ -7,6 +7,7 @@ You can check the version of Python you have installed by running the following 
 ```
 python --version
 ```
+Please ensure that version 3.10 or higher is installed before proceeding. 
 
 ## Installing Python
 Install Python by downloading an installer appropriate to your system from [python.org](https://www.python.org/)  and running it.
@@ -25,6 +26,13 @@ Install Python by downloading an installer appropriate to your system from [pyth
 ```
  git version
 ``` 
+
+!!! tip "Other Operating Systems"
+    If you are running other operating systems such as macOS, Linux, Ubuntu, etc, please follow the installation steps:
+
+    For Python visit: [Download Python for Other Platforms ](https://wiki.python.org/moin/BeginnersGuide/Download)
+
+    For Git visit: [Install Git for Other Platforms](https://github.com/git-guides/install-git)
 
 ## Clone the ANIN drought indices repository
 Open a Command Prompt or a terminal and change the directory to the folder where you will be working. As an example, if you are working from a drive labelled `*K*` in the folder located at this directory address `K:\DroughtIndices`, the following prompt will change the directory.

@@ -1,16 +1,16 @@
 ## General Overview
-All the tools developed in this project can be deployed and executed using Command Prompt, Jupyter Notebooks, or Docker. This section of the Handbook follows the previous section and presents a simple workflow for computing the drought indices from Command Prompt. For a more in-depth explanation of the underlying code, see the User Guide. 
+All the tools developed in this project can be deployed and executed using Command Prompt, Jupyter Notebooks, or Docker. This section of the Handbook follows the previous section and presents a simple workflow for computing the drought indices from Command Prompt. For a more detailed explanation of each index, it's use and application, see the [Specifications](theoretical_basis.md). 
 
-The table below shows the drought indices and their corresponding Python prompt.  Except for CDI, the other layers will overwrite the temporal extent.
+The table below shows the drought indices and their corresponding Python prompt.  Please note that with CDI you must define a temporal extent.
 
 | Index         | Python Code                                     | Requirements    | 
 | :------------ | :---------------------------------------------- | :---------------|
-| SMA           | `python -m SMA.SMA_openeo`                      | None            |
-| SPI           | `python -m SPI.SPI_openeo`                      | None            |
-| SPEI          | `python -m SPEI.SPEI_openeo`                    | None            |
+| Soil Moisture Anomaly (SMA)           | `python -m SMA.SMA_openeo`                      | None            |
+| Standardised Precipitation Index (SPI)          | `python -m SPI.SPI_openeo`                      | None            |
+| Standardised Precipitation-Evapotranspiration Index (SPEI)         | `python -m SPEI.SPEI_openeo`                    | None            |
 | FAPAR Anomaly | `python -m FAPAR_Anomaly.FAPAR_Anomaly_openeo`  | None            |
-| VCI           | `python -m VCI.VCI_openeo`                      | None            |
-| CDI           | `python -m CDI.CDI_openeo`                      | Temporal extent |
+| Vegetation Condition Index (VCI)         | `python -m VCI.VCI_openeo`                      | None            |
+| Combined Drought Indicator (CDI)         | `python -m CDI.CDI_openeo`                      | Temporal extent |
 
 ## Example 1: Standardised Precipitation Index (SPI)
 The SPI tool provides monthly time-series information based on precipitation data. It is computed at a national scale at a resolution of 1° x 1° and requires no temporal extent as an input. To run SPI, input the Python code below into the command prompt.

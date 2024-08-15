@@ -3,7 +3,7 @@ All the tools developed in this project can be deployed and executed using Comma
 
 The table below shows the drought indices and their corresponding Python prompt.  Please note that with CDI you must define a temporal extent.
 
-| Index         | Python Code                                     | Requirements    | 
+| Index         | Command                                    | Requirements    | 
 | :------------ | :---------------------------------------------- | :---------------|
 | Soil Moisture Anomaly (SMA)           | `python -m SMA.SMA_openeo`                      | None            |
 | Standardised Precipitation Index (SPI)          | `python -m SPI.SPI_openeo`                      | None            |

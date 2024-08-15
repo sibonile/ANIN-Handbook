@@ -7,7 +7,7 @@ You can check the version of Python you have installed by running the following 
 ```
 python --version
 ```
-Please ensure that version 3.10 or higher is installed before proceeding. 
+Please ensure that version 3.8 or higher is installed before proceeding. 
 
 ## Installing Python
 Install Python by downloading an installer appropriate to your system from [python.org](https://www.python.org/)  and running it.

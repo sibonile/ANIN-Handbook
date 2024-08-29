@@ -21,6 +21,9 @@ The script will create the output TIFFs in folders labelled `out-xxx` in the SPI
 !!! note ""
     ![alt text](<assets/SPI_ Results_Map.PNG>)
 
+!!! warning
+    The first time you run the command, you may be prompted to authenticate via the EGI website. Simply copy the provided URL, paste it into your browser, and follow the authentication steps. If you do not already have an account, you will need to create one in order to proceed. 
+
 ## Example 2: Combined Drought Indicator (CDI)
 The CDI tool provides near-monthly time-series information based on Standardised Precipitation Index (SPI), Soil Moisture Anomaly (SMA) and FAPAR anomaly, resulting in maps that can be used for drought watch, warning and alert. This tool does require a temporal extent for performance. To run CDI, input the Python code below into the command prompt. In this example, we use June to December 2022 as our temporal extent.
 ``` py
@@ -29,3 +32,11 @@ python -m CDI.CDI_openeo "2022-06-01" "2022-12-01"
 As with Example 1, an `out-xxx` folder will be created in the CDI folder, which contains six TIFFs, as shown below. These can be visualised in any GIS software.
 !!! note ""
     ![alt text](assets/CDI_Outputs.PNG)   
+
+## Export to CSV format
+The default output format for the Drought Indices Python code is TIFF. If you prefer to receive the output in CSV format, simply append the `--out_format=CSV` option to the end of any command listed in the table above. For example, you would use the following command to get SMA in CSV format. 
+``` py
+python -m SMA.SMA_openeo --out_format=CSV
+```
+!!! note
+    The CSV output contains data aggregated as an average at the secondary catchment level.

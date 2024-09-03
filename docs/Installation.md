@@ -58,16 +58,17 @@ In Command Prompt, change the directory again to point to the newly created `ANI
 cd \ANIN-drought-indices
 ```
 ## Create a Virtual Environment with Python
-To avoid any system conflicts when running the tools, create a virtual environment in your working folder by running the following prompts:
+Users with software dependent on older Python versions, like ArcGIS, may encounter issues in Command Prompt. To avoid conflicts when running ANIN tools, create a virtual environment in your working folder by executing the following commands:
 
 ``` 
 python -m venv venv
 ```
 !!! Tip
-    If you get an error when creating the virtual environment, adjust the prompt to point to the location of the latest version of the Python you installed. It should look like this:
+    If you encounter an error when creating the virtual environment, Command Prompt might be calling an older version of Python. To fix this, modify the command to point to the latest version by replacing `python` with the full path to the `python.exe` file from your recent installation. It should look like this:
     ```
     path/to/where/python/is/installed/python.exe -m venv venv
     ```
+
 Once the virtual environment is created, we can activate it.
 ``` 
 venv\Scripts\activate.bat

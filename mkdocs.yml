@@ -1,6 +1,5 @@
 site_name: ANIN Handbook
 theme:
-  
   name: material
   features:
     - announce.dismiss
@@ -47,6 +46,10 @@ nav:
       - Working in Jupyter Notebooks: 'JupyterNB.md'
       - Example Results: 'examples.md'
 - Specifications: 'theoretical_basis.md'
+- FAQ:
+      - Python Virtual Environment: 'FAQ_Python.md'
+      - OpenEO account setup: 'OpenEO.md'
+      
 
 
 # - Tutorials:
@@ -72,3 +75,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+

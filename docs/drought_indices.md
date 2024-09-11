@@ -1,6 +1,10 @@
 ## General Overview
 All the tools developed in this project can be deployed and executed using Command Prompt, Jupyter Notebooks, or Docker. This section of the Handbook follows the previous section and presents a simple workflow for computing the drought indices from Command Prompt. For a more detailed explanation of each index, it's use and application, see the [Specifications](theoretical_basis.md). 
 
+!!! Warning "Before your proceed"
+    1. Make sure have created and activated the [Python Virtual Environment](Installation.md#create-a-virtual-environment-with-python).
+    2. Make sure you have an active [OpenEO account](OpenEO.md).
+
 The table below shows the drought indices and their corresponding Python prompt.  Please note that with CDI you must define a temporal extent.
 
 | Index         | Command                                    | Requirements    | 
@@ -21,8 +25,11 @@ The script will create the output TIFFs in folders labelled `out-xxx` in the SPI
 !!! note ""
     ![alt text](<assets/SPI_ Results_Map.PNG>)
 
-!!! warning
-    The first time you run the command, you may be prompted to authenticate via the EGI website. Simply copy the provided URL, paste it into your browser, and follow the authentication steps. If you do not already have an account, you will need to create one in order to proceed. 
+!!! warning "Authentification Error"
+    The first time you run the command, you may be prompted to authenticate via the EGI website.
+
+     ![alt text](assets/AuthError.PNG)
+     Simply copy the provided URL (CTRL +M) as seen above, paste it into your browser, and follow the authentication steps using your OpenEO account credentials. When prompted select `Yes` to `Grant Access to openEO Platform`
 
 ## Example 2: Combined Drought Indicator (CDI)
 The CDI tool provides near-monthly time-series information based on Standardised Precipitation Index (SPI), Soil Moisture Anomaly (SMA) and FAPAR anomaly, resulting in maps that can be used for drought watch, warning and alert. This tool does require a temporal extent for performance. To run CDI, input the Python code below into the command prompt. In this example, we use June to December 2022 as our temporal extent.

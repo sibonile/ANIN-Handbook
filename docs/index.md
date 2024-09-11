@@ -31,6 +31,6 @@ The European Space Agency (ESA) created the EO Africa initiative (African Framew
 [![alt text](assets/Primary_Logos.JPG)](https://www.eoafrica-rd.org/){:target="_blank"}
 
 
-For more information on the ANIN South Africa Drought Monitoring Project, visit [https://eoafrica.drought-za.org/](https://eoafrica.drought-za.org/).
+For more information on the ANIN South Africa Drought Monitoring Project, visit [https://eoafrica.drought-za.org/](https://eoafrica.drought-za.org/){:target="_blank"}.
 
 
